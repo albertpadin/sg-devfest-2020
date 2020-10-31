@@ -5,7 +5,7 @@ const app = express();
 app.get('/', (req, res) => {
   res
     .status(200)
-    .send('Hello, GDG Singapore!!! \o/')
+    .send('Hello, GDG Singapore!!! \\o/')
     .end();
 });
 
